@@ -1,0 +1,22 @@
+{{ define "main" }}
+    {{ .Content }}
+
+    {{ $data := dict }}
+    {{ with .Resources.Get "data.json" }}
+        {{ with . | transform.Unmarshal }}
+            {{ $data = . }}
+        {{ end }}
+    {{ end }}
+
+    {{ range $data }}
+        <div>
+            <div class="name">{{ .name }}</div>
+            <div class="publisher">{{ .publisher }}</div>
+            <div class="date">{{ .date }}</div>
+            {{ if .website }}
+                <div class="website">{{ .website }}</div>
+            {{ end }}
+            <div class="summary">{{ .summary | markdownify }}</div>
+        </div>
+    {{ end }}
+{{ end }}

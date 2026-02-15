@@ -1,0 +1,23 @@
+{{ define "main" }}
+    {{ .Content }}
+
+    {{ $data := dict }}
+    {{ with .Resources.Get "data.json" }}
+        {{ with . | transform.Unmarshal }}
+            {{ $data = . }}
+        {{ end }}
+    {{ end }}
+
+    {{ range $data }}
+        <div>
+            <div class="institution">{{ .institution }}</div>
+            <div class="degree">{{ .degree }}</div>
+            <div class="domain">{{ .domain }}</div>
+            <div class="date_range">
+                <span class="start_date">{{ .start_date }}</span> - <span class="end_date">{{ .end_date }}</span></div>
+            <div class="location">{{ .location }}</div>
+            <div class="website">{{ .website }}</div>
+            <div class="summary">{{ .summary | markdownify }}</div>
+        </div>
+    {{ end }}
+{{ end }}

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Programming",
+        "level": 80,
+        "keywords": ["Python", "C/C++", "Bash", "Go"]
+    },
+    {
+        "name": "Web Development",
+        "level": 70,
+        "keywords": ["Html", "CSS", "Javascript", "Websocket", "Django", "Hugo", "TailwindCSS"]
+    },
+    {
+        "name": "Office",
+        "level": 50,
+        "keywords": ["Latex", "LibreOffice suite"]
+    },
+    {
+        "name": "Robotics",
+        "level": 60,
+        "keywords": ["ROS", "Webots", "E-Puck", "Nao", "Gazebo", "Mujoco"]
+    },
+    {
+        "name": "Design",
+        "level": 30,
+        "keywords": ["Gimp", "Inkscape"]
+    },
+    {
+        "name": "System Administration",
+        "level": 50,
+        "keywords": ["Proxmox VE", "Nginx", "Apache2", "Smallstep"]
+    },
+    {
+        "name": "Machine Learning",
+        "level": 60,
+        "keywords": ["Reinforcement Learning", "Genetic Algorithm", "Artificial Neural Networks"]
+    },
+    {
+        "name": "Databases",
+        "level": 40,
+        "keywords": ["MariaDB", "PostgreSQL"]
+    }
+]

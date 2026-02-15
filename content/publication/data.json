@@ -1,0 +1,86 @@
+[
+    {
+        "name": "[Re] An Anatomically Constrained Neural Network Model of Fear Conditioning",
+        "publisher": "Rescience C",
+        "date": "April 2024",
+        "website": "https://zenodo.org/records/11077385",
+        "summary": "This article presents a replication of the computational model and classical conditioning experiment initially published in the article entitled: *\"An anatomically constrained neural network model of fear conditioning\"*. In the original paper, the author identified a set of principles underlying the mechanisms for transmitting information from the thalamus to the amygdala as suggested by the theory of the *\"Two-pathways to the amygdala\"*. Through a simulated classical conditioning experiment, the author's goal is to validate the design principles by showing that the computational model is able to account for sets of physiological and behavioral findings from conditioning studies on animals. A second aim of the original article was to emphasize the usefulness of computer modeling as a tool to help neuroscience move forward. Here I show that I was able to re-implement the computational model described by Armony et al. (1995), as well as replicate the results initially published. Individual units within the model exhibited differences in activation after the conditioning phase which is consistent with empirical results from cell recording studies. Similarly, the behavioral output of the network matches experimental results from the classical conditioning paradigm. Therefore, the principles on which the computational model is built are valid. Moreover, the model has since proved its usefulness by being able to predict the outcome of lesion studies on the parallel pathways used by the brain to carry stimuli from the thalamus to the amygdala."
+    },
+    {
+        "name": "The Role of Emotions in Autonomous Social Agents",
+        "publisher": "White Rose",
+        "date": "February 2021",
+        "website": "https://etheses.whiterose.ac.uk/28366/",
+        "summary": "The holy grail of both AI and cognitive science is human-level intelligence. Whereas AI relies on computer algorithms to simulate human abilities, cognitive scientists investigate the brain to understand the underlying mechanisms. For most of human history, emotions were thought to be nothing more than disturbances for cognition. Therefore, they were usually ostracized from research on intelligence. As a result, cognitive architectures only partially include emotions in their design, if at all. Recently, though, it was discovered that emotions and cognition are in fact inter-dependent systems. Consequently, before being able to fully replicate human-level intelligence, it is necessary to understand the concept of emotions and its many roles within the brain. In this thesis, working around the lack of definition for emotion, I show that emotions inform the brain as to the nature of a given situation and guide the decision-making process, to increase the survival potential of virtual agents. In particular ProtoEmo, an architecture replicating the circuits found at the base of the forebrain, is shown to have the ability to detect stimuli relevant to the survival of virtual agents. Hence, it outperforms other emotional agents in terms of survival capabilities, which are measured by the size of the remaining population at the end of a resource foraging task. PrimEmo, the architecture born from the integration of ProtoEmo with standard models of the reward and decision-making systems in the brain, displays survival capabilities similar to the advantage actor-critic algorithm. PrimEmo also shows promises for supporting primitive emotions characterized by their level of arousal and valence. After further refinement, PrimEmo could replace the core decision-making module of a cognitive architecture, such as ACT-R or SOAR. Not only would it confer survival capabilities to the architecture, it would also allow for the possibility of investigating full-fledged emotions, and even emotional expression."
+    },
+    {
+        "name": "PrimEmo: A Neural Implementation of Survival Circuits Supporting Primitive Emotions",
+        "publisher": "Proceedings of AISB Annual Convention 2017",
+        "date": "April 2017",
+        "website": "https://cris.brighton.ac.uk/ws/portalfiles/portal/452820/conference-edition-proceedings.pdf",
+        "summary": ""
+    },
+    {
+        "name": "Introduction of Emotions in Coevolving Multi-agent System",
+        "publisher": "SICE 2012",
+        "date": "2012",
+        "website": "",
+        "summary": ""
+    },
+    {
+        "name": "Emotion and Coevolution of Learning Robots Teams",
+        "publisher": "SCI 2012",
+        "date": "2012",
+        "website": "",
+        "summary": ""
+    },
+    {
+        "name": "Robots and recipes",
+        "publisher": "",
+        "date": "",
+        "website": "",
+        "summary": ""
+    },
+    {
+        "name": "Nukabot and Go",
+        "publisher": "",
+        "date": "",
+        "website": "",
+        "summary": ""
+    },
+    {
+        "name": "Alife2025",
+        "publisher": "",
+        "date": "",
+        "website": "",
+        "summary": ""
+    },
+    {
+        "name": "Joe Human",
+        "publisher": "",
+        "date": "",
+        "website": "",
+        "summary": ""
+    },
+    {
+        "name": "Joe Computation",
+        "publisher": "",
+        "date": "",
+        "website": "",
+        "summary": ""
+    },
+    {
+        "name": "Discovery robotics",
+        "publisher": "",
+        "date": "",
+        "website": "",
+        "summary": ""
+    },
+    {
+        "name": "Ben plant",
+        "publisher": "",
+        "date": "",
+        "website": "",
+        "summary": ""
+    }
+]

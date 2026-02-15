@@ -1,0 +1,23 @@
+{{ define "main" }}
+    {{ .Content }}
+
+    {{ $data := dict }}
+    {{ with .Resources.Get "data.json" }}
+        {{ with . | transform.Unmarshal }}
+            {{ $data = . }}
+        {{ end }}
+    {{ end }}
+
+    {{ range $data }}
+        <div>
+            <p class="name">{{ .name }}: 
+                {{ range .keywords }}
+                <span class="keyword">{{ . }}</span>
+                {{ end }}
+            </p>
+            <div class="flex-start flex h-2.5 w-full overflow-hidden rounded-full bg-stone-100 font-sans text-xs font-medium">
+                <div class="flex h-full w-[{{ .level}}%] items-center justify-center overflow-hidden break-all rounded-full bg-red-500 text-white"></div>
+            </div>
+        </div>
+    {{ end }}
+{{ end }}

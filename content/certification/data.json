@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Deep Learning specialization",
+        "issuer": "DeepLearning.ai",
+        "date": "January 2021",
+        "website": "https://coursera.org/share/bf685fdb6ba5ecd15653ff0ad3c2c41e",
+        "summary": "Neural Networks and Deep Learning; Convolutional Neural Networks; Structuring Machine Learning projects; Improving Deep Neural Networks; Hyperparameters tuning, regularization and optimization; Sequence Models"
+    },
+    {
+        "name": "Reinforcement Learning specialization",
+        "issuer": "University of Alberta & Alberta Machine Intelligence Institute",
+        "date": "February 2021",
+        "website": "https://coursera.org/share/eb794221fe372a4a1a6070aa326dc9fc",
+        "summary": "Fundamentals of Reinforcement Learning; Sample-based Learning Methods; Prediction and Control with Function Approximation; Implementation of a complete Reinforcement Learning System"
+    },
+    {
+        "name": "Mathematics for Machine Learning specialization",
+        "issuer": "Imperial College London",
+        "date": "March 2021",
+        "website": "https://coursera.org/share/7f90ea9d93e5b4b2393714d0e312a9b3",
+        "summary": "Linear Algebra; Multivariate Calculus; Principal Component Analysis"
+    }
+]

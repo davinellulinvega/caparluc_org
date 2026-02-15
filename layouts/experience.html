@@ -1,0 +1,24 @@
+{{ define "main" }}
+    {{ $data := dict }}
+    {{ .Content }}
+    <ul>
+    {{ with .Resources.Get "data.json" }}
+        {{ with . | transform.Unmarshal }}
+            {{ $data = . }}
+        {{ end }}
+    {{ end }}
+
+    {{ range $data }}
+        <li>
+            <div class="company">{{ .company }}</div>
+            <div class="contract_type">{{ .contract_type }}</div>
+            <div class="position">{{ .position }}</div>
+            <div class="date_range">
+                <span class="start_date">{{ .start_date }}</span> - <span class="end_date">{{ .end_date }}</span></div>
+            <div class="location">{{ .location }}</div>
+            <div class="website">{{ .website }}</div>
+            <div class="summary">{{ .summary | markdownify }}</div>
+        </li>
+    {{ end }}
+    </ul>
+{{ end }}
