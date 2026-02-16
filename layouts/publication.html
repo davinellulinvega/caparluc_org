@@ -11,8 +11,12 @@
     {{ range $data }}
         <div>
             <div class="name">{{ .name }}</div>
-            <div class="publisher">{{ .publisher }}</div>
+            <div class="journal">{{ .journal }}</div>
             <div class="date">{{ .date }}</div>
+            <div class="authors">
+                {{ range .authors }}
+                <span class="author">{{ . }}</span>
+                {{ end }}
             {{ if .website }}
                 <div class="website">{{ .website }}</div>
             {{ end }}
