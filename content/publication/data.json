@@ -1,86 +1,90 @@
 [
     {
+        "name": "How the Teaching Style and Interpretation Type of State Interventions Shape Multi-Agent Coordination",
+        "authors": ["Zhuolun Zhong", "Luc Caspar", "Joseph L. Austerweil"],
+        "journal": "CogSci 2026",
+        "date": "Submitted: February 2026",
+        "website": "",
+        "summary": "How can an external teacher accelerate coordination among multiple learning agents? We investigate this question in a multi-agent foraging task where a simulated teacher can physically relocate agents—a direct but ambiguous pedagogical signal. We formalize a taxonomy of teaching styles (e.g., Undoing, Correcting) and agent interpretation rules. Our computational experiments reveal that the Undoing style is a uniquely powerful catalyst for spatial coordination, most effectively breaking behavioral symmetry between two agents by imposing spatial constraints that define “home regions.” This catalytic effect scales, reinforcing niche specialization in three agent systems. However, success is governed by a pedagogical matching principle: interventions fail when the agent’s interpretation rule mismatches the teacher’s intent (e.g., Correcting fails when interventions are interpreted as punitive). Our work provides a formal framework showing how structured guidance and agent interpretation jointly shape the emergence of collective organization."
+    },
+    {
+        "name": "Individual Differences in Human Teaching of Reinforcement Learning Agents: Evidence from Bayesian Hypothesis Testing",
+        "authors": ["Zhuolun Zhong", "Luc Caspar", "Joseph L. Austerweil"],
+        "journal": "CogSci 2026",
+        "date": "Submitted: February 2026",
+        "website": "",
+        "summary": "When humans teach reinforcement learning (RL) agents through real-time interventions, does their teaching strategy adapt to environmental context or reflect stable individual differences? We present a novel web-based platform for studying human teaching via state interventions (i.e.: physical relocation of learning agents). In a study with 82 participants, we manipulated world dynamics and how agents interpreted interventions using six formally-defined interpretation types. Bayesian analyses provided moderate-to-strong evidence that neither factor affected teaching behavior ($BF01 = 5.22$ for world type; $BF01 = 27.08$ for interpretation type). However, participants showed consistent individual differences: highfrequency teachers ($n = 39$; $M = 36$ interventions/round) systematically targeted lower Q-value actions compared to lowfrequency teachers ($t(80) = −2.58$, $p = .012$, $d = −0.57$, $BF10 = 3.69$). While frequent interventions boosted immediate scores, they often impaired long-term policy learning. The reset interpretation, which ignores the effect on intervention, was an exception: it was robust to suboptimal human guidance. These findings suggest human teaching reflects stable individual styles rather than context-adaptive behavior, with implications for designing resilient human-AI interaction systems."
+    },
+    {
+        "name": "Discovering the Emotional Capacity of Plants",
+        "authors": ["Benjamin J. Calvert", "Luc Caspar", "Olaf Witkowski"],
+        "journal": "Preprints",
+        "date": "January 2026",
+        "website": "https://doi.org/10.20944/preprints202601.1606.v1",
+        "summary": "Plants exhibit complex internal dynamics in response to environmental conditions, yet whether these dynamics reflect structured affective regimes remains unclear. This study investigates whether internal plant signals encode information about affective states defined relationally by sustained environmental conditions. Valence and arousal were operationalised using temperature, humidity, and residual light. Using only internal plant measurements—including bioelectrical activity and volatile gas emissions—we evaluated whether machine learning models could decode affective structure without access to environmental variables. Binary classification revealed that valence was reliably decoded over longer temporal windows, whereas arousal required shorter windows, suggesting distinct underlying timescales. Direct multiclass quadrant classification proved unstable, but an Echo State Network capturing temporal dependencies achieved improved performance. These results indicate that plant internal dynamics carry a learnable, temporally extended signature of environmentally defined affective regimes, supporting an interpretation of plant affect as embodied environmental engagement."
+    },
+    {
+        "name": "Robots Reading Recipes: Large Language Models as Translators Between Humans and Machines",
+        "authors": ["Oliver Wang", "Grant Cheng", "Luc Caspar", "Akira Yokota", "Mahdi Khosravy", "Olaf Witkowski"],
+        "journal": "Artificial Life and Robotics",
+        "date": "June 2025",
+        "website": "https://link.springer.com/article/10.1007/s10015-025-01031-3",
+        "summary": "Large Language Models (LLMs) are a type of machine learning model trained on vast amounts of natural language that have demonstrated novel capabilities in tasks such as text prediction and generation. These tasks allow LLMs to be remarkably suited for understanding the semantics of natural language, which in turn enables applications such as planning real world tasks, writing code for computers, and translating between human languages. Even though LLMs could provide more flexibility in interpreting user requests and have shown to possess some commonsense knowledge, their capabilities for translating natural language instructions into code to control robot actions is only starting to be explored. More specifically, in this paper we are interested in the control of robots tasked with preparing cocktails. Within this context, it is assumed that the LLM has access to a repository of well-formatted recipes. This means that each recipe is written according to the following layout: a list of ingredients, then a subsequent description of how to prepare and mix the various items. Moreover, a set of low-level modules responsible for robot manipulation and vision-related tasks is also provided to the LLM in the shape of an application programming interface (API). Consequently, the main focus of the LLM is on generating a sequence of calls to the API, along with the right parameters, to produce the cocktail requested by users in natural language. Here, we show that it is feasible for LLMs to perform this type of translation on a small number of custom modules, and that certain techniques provide a measurable benefit to the accuracy and consistency of this task without fine-tuning. We found in particular that the use of an ensemble-voting strategy, where multiple trials are repeated and the most common answer is selected, increases accuracy to a certain extent. In addition, there is moderate support for the use of natural language parsing to adjust the prompt of the LLM prior to translation. Lastly, building on previous knowledge we also provide a set of guidelines to help design prompts to improve the accuracy of the resulting sequence of actions. In general, these results suggest that while LLMs can be used as translators of robot instructions, they are best applied in conjunction with these other strategies. The impact of these findings could influence future robotics development, as it provides directions for implementing LLMs more effectively and broadening the accessibility of robotic control to users without an extensive software background."
+    },
+    {
+        "name": "Bidirectional Communication Between Xenobot Cultures? Toward Collective Intelligence Across Diverse Biological Systems",
+        "authors": ["Atoosa Parsa", "Pai Vaibhav", "Luc Caspar", "Federico Pigozzi1", "Olaf Witkowski", "Michael Levin"],
+        "journal": "Conference proceedings alife 2025",
+        "date": "May 2025",
+        "website": "https://2025.alife.org/",
+        "summary": "Acoustic signaling is a prominent mode of communication in many animal species with centralized nervous systems. Remarkably, recent studies have discovered that aneural biobots derived from Xenopus embryonic cells (basal Xenobots) are also sensitive to external mechanical cues and alter their movement paths when exposed to acoustic vibration stimuli in the audible frequency range. In this work, we entertain the idea that two Xenobot cultures may communicate through sound constructed from their real-time motion trajectories via a sonification method. We present a biohybrid platform in which communication is mediated through a latent translator and provide proof-of-principle experimental results that demonstrate the viability of bidirectional communication between two Xenobots. Our findings provide insights into novel control modalities for guiding the cilia-driven Xenobot locomotion in biomedical applications without direct genomic editing, morphological design, or manual sculpting. We envision expanding this platform to other biological and artificial systems in the future, potentially allowing cross-kingdom communication across diverse intelligences."
+    },
+    {
+        "name": "Communicating Through a Narrow Channel: Perceiving Microbial Affect Over a Game of Go",
+        "authors": ["Luc Caspar", "Javier Fdez", "Dominique Chen", "Youngah Seong", "Kazuhiro Jo", "Olaf Witkowski"],
+        "journal": "PsyArXiv",
+        "date": "June 2024",
+        "website": "https://doi.org/10.31234/osf.io/wxvr4",
+        "summary": "Interfaces between agents may display special powers owing to their narrow bottlenecks in communication channels, such as games or other virtual media through which agents are given to interact. In this paper, we propose to derive an agent's personality from their behavior in the Game of Go as an arbitrary substrate for communication. Our approach is agnostic to the type of embodiment of the player, which means that it remains as applicable to humans as animals or simpler organisms, even artificial forms of intelligence. We base our methodology on related works characterizing affective states, including the seminal pleasure-arousal-dominance framework that focuses on modeling personalities. Our preliminary results indicate that narrow bottlenecks favor a reduction in the feature set necessary to characterize a personality type, thus making for more interesting social interactions in and around game-play."
+    },
+    {
         "name": "[Re] An Anatomically Constrained Neural Network Model of Fear Conditioning",
-        "publisher": "Rescience C",
+        "authors": ["Luc Caspar", "Roger K. Moore"],
+        "journal": "Rescience C",
         "date": "April 2024",
         "website": "https://zenodo.org/records/11077385",
         "summary": "This article presents a replication of the computational model and classical conditioning experiment initially published in the article entitled: *\"An anatomically constrained neural network model of fear conditioning\"*. In the original paper, the author identified a set of principles underlying the mechanisms for transmitting information from the thalamus to the amygdala as suggested by the theory of the *\"Two-pathways to the amygdala\"*. Through a simulated classical conditioning experiment, the author's goal is to validate the design principles by showing that the computational model is able to account for sets of physiological and behavioral findings from conditioning studies on animals. A second aim of the original article was to emphasize the usefulness of computer modeling as a tool to help neuroscience move forward. Here I show that I was able to re-implement the computational model described by Armony et al. (1995), as well as replicate the results initially published. Individual units within the model exhibited differences in activation after the conditioning phase which is consistent with empirical results from cell recording studies. Similarly, the behavioral output of the network matches experimental results from the classical conditioning paradigm. Therefore, the principles on which the computational model is built are valid. Moreover, the model has since proved its usefulness by being able to predict the outcome of lesion studies on the parallel pathways used by the brain to carry stimuli from the thalamus to the amygdala."
     },
     {
         "name": "The Role of Emotions in Autonomous Social Agents",
-        "publisher": "White Rose",
+        "authors": ["Luc Caspar"],
+        "journal": "White Rose",
         "date": "February 2021",
         "website": "https://etheses.whiterose.ac.uk/28366/",
         "summary": "The holy grail of both AI and cognitive science is human-level intelligence. Whereas AI relies on computer algorithms to simulate human abilities, cognitive scientists investigate the brain to understand the underlying mechanisms. For most of human history, emotions were thought to be nothing more than disturbances for cognition. Therefore, they were usually ostracized from research on intelligence. As a result, cognitive architectures only partially include emotions in their design, if at all. Recently, though, it was discovered that emotions and cognition are in fact inter-dependent systems. Consequently, before being able to fully replicate human-level intelligence, it is necessary to understand the concept of emotions and its many roles within the brain. In this thesis, working around the lack of definition for emotion, I show that emotions inform the brain as to the nature of a given situation and guide the decision-making process, to increase the survival potential of virtual agents. In particular ProtoEmo, an architecture replicating the circuits found at the base of the forebrain, is shown to have the ability to detect stimuli relevant to the survival of virtual agents. Hence, it outperforms other emotional agents in terms of survival capabilities, which are measured by the size of the remaining population at the end of a resource foraging task. PrimEmo, the architecture born from the integration of ProtoEmo with standard models of the reward and decision-making systems in the brain, displays survival capabilities similar to the advantage actor-critic algorithm. PrimEmo also shows promises for supporting primitive emotions characterized by their level of arousal and valence. After further refinement, PrimEmo could replace the core decision-making module of a cognitive architecture, such as ACT-R or SOAR. Not only would it confer survival capabilities to the architecture, it would also allow for the possibility of investigating full-fledged emotions, and even emotional expression."
     },
     {
         "name": "PrimEmo: A Neural Implementation of Survival Circuits Supporting Primitive Emotions",
-        "publisher": "Proceedings of AISB Annual Convention 2017",
+        "authors": ["Luc Caspar", "Roger K. Moore"],
+        "journal": "Proceedings of AISB Annual Convention 2017",
         "date": "April 2017",
-        "website": "https://cris.brighton.ac.uk/ws/portalfiles/portal/452820/conference-edition-proceedings.pdf",
-        "summary": ""
+        "website": "https://aisb.org.uk/wp-content/uploads/2019/09/aisb2017.zip",
+        "summary": "Affective and cognitive sciences are both fields interested in the inner workings of the brain. While affective science focuses on the concept of emotions and how they are produced, cognitive science considers the brain as a whole, treating it as a system made of a multitude of independent subsystems. Since its inception, affective science has produced a plethora of theories and models each trying to solve the mysteries surrounding the definition and origin of emotions in the brain. Cognitive science on the other hand has had a rather chaotic history shifting its focus every decade, before finally being influenced by computer science and adopting the point of view of the brain as the most elaborate computational device. In this point of view, the gray matter residing within our skull is reduced to a system that takes sensory information on its inputs, processes it and outputs more data or actions. Each field has, more or less, evolved independently from one another so far, but both are now facing fundamental problems. On the one hand, the concept of emotions has yet to be completely defined and modeled. On the other, cognitive science is still trying to produce architectures imbuing artificial agents with human-level intelligence. This paper introduces a neural architecture based on the “survival circuits” framework (LeDoux, 2012) supporting primitive emotions and providing survival skills to artificial agents. Side-stepping the problem of defining the concept of emotions, the suggested neural structure focuses on identifying and modeling parts of the brain involved in survival functions (defense, thermo-regulation, maintenance of energy, nutritional supplies, reproduction and fluid balance). The neural implementation of this system provides a proto-brain for groups of artificial agents trying to survive in a dynamic virtual environment. By comparison with a hard-coded control logic (Scheutz, 2004), our architecture allows for a more equitable sharing of the resources and a longer life expectancy. It is our belief that, in the long term, the system suggested in this paper could become a robust basis upon which more elaborate cognitive architectures, such as ACT-R or SOAR, could be built, hence moving one step closer to endowing artificial agents with human-level intelligence."
     },
     {
         "name": "Introduction of Emotions in Coevolving Multi-agent System",
-        "publisher": "SICE 2012",
+        "authors": ["Luc Caspar", "Naoki Mori", "Keinosuke Matsumoto"],
+        "journal": "SICE 2012",
         "date": "2012",
-        "website": "",
-        "summary": ""
+        "website": "https://www.sice.or.jp/org/sice2012/programs.html",
+        "summary": "Emotion in robotic is an important subject in current researches. My work consists in building a framework for multi-agent system solving co-evolution problems using emotions. In a simulated environment learning robots, sharing knowledge, emotions and evolving, have to put their efficiency in solving problems in cooperation on display. Simulation results show that by sharing knowledge and emotions a team of robots is able to achieve its goal faster and thanks to the emotions’ representation the amount of data exchanged is reduced to its minimum."
     },
     {
         "name": "Emotion and Coevolution of Learning Robots Teams",
-        "publisher": "SCI 2012",
+        "authors": ["Luc Caspar", "Naoki Mori", "Keinosuke Matsumoto"],
+        "journal": "SCI 2012",
         "date": "2012",
         "website": "",
-        "summary": ""
-    },
-    {
-        "name": "Robots and recipes",
-        "publisher": "",
-        "date": "",
-        "website": "",
-        "summary": ""
-    },
-    {
-        "name": "Nukabot and Go",
-        "publisher": "",
-        "date": "",
-        "website": "",
-        "summary": ""
-    },
-    {
-        "name": "Alife2025",
-        "publisher": "",
-        "date": "",
-        "website": "",
-        "summary": ""
-    },
-    {
-        "name": "Joe Human",
-        "publisher": "",
-        "date": "",
-        "website": "",
-        "summary": ""
-    },
-    {
-        "name": "Joe Computation",
-        "publisher": "",
-        "date": "",
-        "website": "",
-        "summary": ""
-    },
-    {
-        "name": "Discovery robotics",
-        "publisher": "",
-        "date": "",
-        "website": "",
-        "summary": ""
-    },
-    {
-        "name": "Ben plant",
-        "publisher": "",
-        "date": "",
-        "website": "",
-        "summary": ""
+        "summary": "Even if robots are built more and more intelligent, they still lack one important ability: having Emotion. Our research focuses on how to represent emotions in computer science, an important topic in nowadays research. We apply this concept to learning robots that have to solve complex problems in cooperation. Because emotion is something dynamic, we also apply the concept of evolution to these robots. After some simulations on a co-evolution problem, we observed that the learning and evolving robots perform better than the other."
     }
 ]
