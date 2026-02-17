@@ -7,7 +7,7 @@
         "end_date": "February 2021",
         "website": "https://www.sheffield.ac.uk/",
         "location": "Sheffield, The United Kingdom",
-        "summary": "Worked on my project entitled: *The Role of Emotions in Autonomous Social Agents*, that sits at the crossroad of neuroscience, robotics, artificial intelligence and affective science. The goal of the project was to show that emotions inform the brain as to the nature of a given situation and guide the decision-making process, to increase the survival potential of virtual agents. In particular, I showed that by using a computational model of the circuits found at the base of the forebrain a group of virtual agents was able to outperform other emotional agents in terms of survival capabilities."
+        "summary": "The title of my thesis was: *\"The Role of Emotions in Autonomous Social Agents\"*. It sits at the crossroad of neuroscience, robotics, artificial intelligence and affective science. The goal of the project was to show that emotions inform the brain as to the nature of a given situation and guide the decision-making process, to increase the survival potential of virtual agents. In particular, I showed that through the use of a computational model of the circuits found at the base of the forebrain a group of virtual agents was able to outperform other emotional agents in terms of survival capabilities."
     },
     {
         "institution": "Shinjuku Nihongo Gakko (SNG)",
@@ -17,7 +17,7 @@
         "end_date": "September 2013",
         "website": "https://www.sng.ac.jp/en/",
         "location": "Tokyo, Japan",
-        "summary": "Enrolled in a language institution in an effort to learn more about the Japanese language and culture. Completed the beginner and intermediate levels."
+        "summary": "As part of my goal to live in Japan, I enrolled in a language institution in an effort to learn more about the Japanese language and the culture. During my time at this school, I was able to completed the beginner and intermediate levels. This means that I could hold a conversation in everyday life."
     },
     {
         "institution": "Osaka Prefecture University",
@@ -25,9 +25,9 @@
         "domain": "Computer Science and Intelligent systems",
         "start_date": "September 2011",
         "end_date": "September 2012",
-        "website": "https://www.osakafu-u.ac.jp/en/",
+        "website": "https://www.omu.ac.jp/en/",
         "location": "Osaka, Japan",
-        "summary": "Double degree in computer science and intelligent system achieved through a partnership between the EISTI and OPU."
+        "summary": "As part of a double degree opportunity provided by the EISTI, I spent a year at the University of Osaka Prefecture, where I studied various topics in computer science and intelligent systems. This is also where I started my exploration of the field of affective science."
     },
     {
         "institution": "EISTI",
@@ -35,9 +35,9 @@
         "domain": "Computer Science and Information processing",
         "start_date": "September 2009",
         "end_date": "September 2012",
-        "website": "https://cytech.cyu.fr/",
+        "website": "https://cytech.cyu.fr/en",
         "location": "Pau, France",
-        "summary": "Private engineering school specialzed in data processing, machine learning, and mathematics."
+        "summary": "The EISTI is a private engineering school specialzed in data processing, machine learning, and mathematics. While the standard curriculum spans three years, I only attended for the first two, before moving to Japan to complete my double degree."
     },
     {
         "institution": "Lycée Couffignal",
@@ -45,9 +45,9 @@
         "domain": "General",
         "start_date": "September 2007",
         "end_date": "September 2009",
-        "website": "http://www.lyc-couffignal-strasbourg.ac-strasbourg.fr/",
+        "website": "https://www.lyc-couffignal-strasbourg.ac-strasbourg.fr/",
         "location": "Strasbourg, France",
-        "summary": "Part of the post-secondary education system. These two intensive years provide the knowledge and training required to take the entrance exams for the different engineering schools."
+        "summary": "CGPE are a peculiarity of the French education system. These two intensive years provide the knowledge and training required to take the entrance exams for the various engineering schools. As such, students get to explore in depth a wide variety of topics across mathematics, science, and literature."
     },
     {
         "institution": "Lycée Louis Marchal",
@@ -57,6 +57,6 @@
         "end_date": "September 2007",
         "website": "https://lycee-marchal.com/",
         "location": "Molsheim, France",
-        "summary": "Part of the standard french curriculum. Subjects such as mathematics, physics, mechanics, electronics, and programming are covered in depth."
+        "summary": "The baccalauréat is part of the standard French curriculum. The SI specialization entails a deeper exploration of subjects such as mathematics, physics, mechanics, electronics, and programming."
     }
 ]
