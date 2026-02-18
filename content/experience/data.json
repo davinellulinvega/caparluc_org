@@ -7,7 +7,7 @@
         "end_date": "Present",
         "location": "Kyoto, Japan",
         "website": "https://www.crosslabs.org",
-        "summary": "Among the different questions I am interested in, currently my main project revolves around the subject of communication of personality through playing chess."
+        "summary": "Cross Labs is a research institute, part of [Cross Compass Ltd.](https://www.cross-compass.com/en), which focuses on understanding intelligence from the point of view of Artificial Life (Alife). As a research scientist, my main projects revolved around the themes of *\"Universal Communication\"*: allowing any kind of agents to communicate over any kind of medium; and *\"Perception Augmentation\"*, which started as an exploration on how to augment human capabilities through the use of tools, then expanded into experiential transfer. As a laboratory manager, I was tasked with improving both the physical and virtual space used by other researchers. This includes building and configuring a dedicated server, designing the office's layout, and defining an inventory/storage solution."
     },
     {
         "company": "Altran",
@@ -17,7 +17,7 @@
         "end_date": "May 2019",
         "location": "Strasbourg, France",
         "website": "https://www.altran.com/uk/en",
-        "summary": "Created a workshop for the Museum called [Le Vaisseau](http://www.levaisseau.com/en/). The aim of the workshop was to introduce children between the age of five and twelve to the concepts of AI. For the group activity I was in charge of, I had to build a deep learning system capable of categorizing audio clips, where each clip consisted in a person mimicking the sound of an object or animal. For example, a child would imitate the sound of a car or a lion, and the system would output an image corresponding to a car or a lion, respectively. The system was trained on [Google's Audioset](https://research.google.com/audioset/). The system achieved an 80% accuracy on a test set made of recordings of children mimicking the sound of various objects."
+        "summary": "As a member of the Research and Development department, I participated in the creation of a workshop for the Museum called [Le Vaisseau](http://www.levaisseau.com/en/). The aim of the workshop was to introduce children between the age of five and twelve to various concepts in AI. I was put in charge of developing a group activity, whose purpose was to categorize audio clips, consisting in a person mimicking the sound of an object or animal. For example, a child would imitate the sound of a car or a lion, and the system would output a corresponding image. To this end, I implemented a CNN-based classifier using Mel-frequency ceptsrum coefficients as inputs, and trained it on relevant data from [Google's Audioset](https://research.google.com/audioset/). The resulting architecture achieved an 80% accuracy when tested on recording of people mimicking sounds."
     },
     {
         "company": "The University of Sheffield",

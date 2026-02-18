@@ -27,7 +27,7 @@
     {
         "name": "System Administration",
         "level": 50,
-        "keywords": ["Proxmox VE", "Nginx", "Apache2", "Smallstep"]
+        "keywords": ["Proxmox VE", "Nginx", "Apache2", "Smallstep", "Netbird"]
     },
     {
         "name": "Machine Learning",
