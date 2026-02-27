@@ -1,5 +1,13 @@
 [
     {
+        "name": "Toward Empathy-Centered Human–Robot Collaboration: A Conceptual Review",
+        "authors": ["Mahdi Khosravy", "Joseph L. Austerweil", "Alyssa M. Adams", "Luc Caspar"],
+        "journal": "",
+        "date": "Submitted: February 2026",
+        "website": "",
+        "summary": "Human–robot collaboration (HRC) has evolved from task-centric coordination toward increasingly human-centered, socially grounded interaction paradigms. While early research emphasized safety, efficiency, and formal coordination among rational agents, recent advances recognize that effective collaboration requires awareness, communication, trust, and ultimately empathy. This review looks at different ways humans and robots work together — including factory robots, teams of smart agents, physical interaction between people and robots, robots that anticipate needs, emotion-aware systems, and companion robots — and examines them through the lens of empathy. It reorganizes these examples to better understand how robots can perceive, respond to, and support human feelings and needs. We describe collaboration as developing across four levels: (1) non-empathic instrumental coordination, (2) empathy-enabling mechanisms such as awareness and communicative transparency, (3) empathy-aware systems incorporating affect recognition and social reasoning, and (4) empathy-centered, long-term relational collaboration. The review demonstrates how empathy progressively transforms collaboration from controlled task execution to mutual adaptation and sustained partnership. The analysis highlights design trade-offs between predictability and adaptability, safety and relational responsiveness, and performance optimization and human well-being. We argue that empathy should not be treated as an optional enhancement but as a context-dependent design dimension that must be integrated with foundational coordination mechanisms. The proposed framework provides a unifying perspective for future research on human-centered collaborative systems and outlines directions for developing transparent, trustworthy, and socially aligned robotic partners."
+    },
+    {
         "name": "How the Teaching Style and Interpretation Type of State Interventions Shape Multi-Agent Coordination",
         "authors": ["Zhuolun Zhong", "Luc Caspar", "Joseph L. Austerweil"],
         "journal": "CogSci 2026",
