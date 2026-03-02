@@ -26,9 +26,9 @@
     {
         "name": "An Operational Framework for Affect-Adjacent Structure in Plant–Environment Interaction",
         "authors": ["Benjamin J. Calvert", "Luc Caspar", "Olaf Witkowski"],
-        "journal": "Preprints",
-        "date": "January 2026",
-        "website": "https://doi.org/10.20944/preprints202601.1606.v2",
+        "journal": "Bioengineering",
+        "date": "February 2026",
+        "website": "https://doi.org/10.3390/bioengineering13030287",
         "summary": "Plants exhibit complex internal dynamics in response to environmental conditions, yet whether these dynamics reflect structured affective regimes remains unclear. This study investigates whether internal plant signals encode information about affective states defined relationally by sustained environmental conditions. Valence and arousal were operationalised using temperature, humidity, and residual light. Using only internal plant measurements—including bioelectrical activity and volatile gas emissions—we evaluated whether machine learning models could decode affective structure without access to environmental variables. Binary classification revealed that valence was reliably decoded over longer temporal windows, whereas arousal required shorter windows, suggesting distinct underlying timescales. Direct multiclass quadrant classification proved unstable, but an Echo State Network capturing temporal dependencies achieved improved performance. These results indicate that plant internal dynamics carry a learnable, temporally extended signature of environmentally defined affective regimes, supporting an interpretation of plant affect as embodied environmental engagement."
     },
     {
